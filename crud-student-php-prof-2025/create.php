@@ -67,8 +67,6 @@ if (isset($_POST['create'])) {
     <?= $message ?>
 
     <form action="" method="post" class="bg-white p-6 rounded shadow max-w-md mx-auto">
-
-
       <div class="mb-4">
         <input type="text" name="nom" placeholder="Nom"
           class="w-full border border-green-300 p-2 rounded focus:outline-none focus:border-green-500">
@@ -94,6 +92,8 @@ if (isset($_POST['create'])) {
       </a>
     </div>
   </div>
+
+
 </body>
 
 

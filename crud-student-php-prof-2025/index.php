@@ -51,6 +51,8 @@ $donnees = $req_select->fetchAll();
       <input type="text" name="search" placeholder="Rechercher par nom ou email"
         value="<?= htmlspecialchars($search) ?>" class="my-5 px-4 py-2 border rounded-lg w-full md:w-1/3">
       <button type="submit" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700">Rechercher</button>
+      <a class=" my-5 px-4 py-2 mr-5 bg-green-600 text-white rounded hover:bg-green-700" href="create2.php">Créer un
+        nouvel étudiant 2</a>
     </form>
 
     <!-- Tableau des étudiants -->
