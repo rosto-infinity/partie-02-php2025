@@ -15,7 +15,7 @@ if (isset($_POST['create'])) {
   $prenom = clean_input($_POST['prenom']);
   $mail = clean_input($_POST['mail']);
 
-  // Verifier si l'un des champs est vide
+  // Verifier si l'un des champs est vide ok
   if (empty($nom) || empty($prenom) || empty($mail)) {
 
     $message = ' <span style="background:red; padding:10px; color:white margin:15px;"> Veillez remplir les champs </span>';
