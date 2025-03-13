@@ -38,7 +38,7 @@ if (isset($_POST['create'])) {
 
       echo '<p class="success"> Etudiant creer avec success <p/>';
       // $query->execute();
-      // $query->execute([$prenom,$nom, $mail]);
+      // $query->execute([$prenom,$nom, $mail]); okl
 
       // $query->execute([
       //   'prenom' => $prenom,
