@@ -1,0 +1,4 @@
+ $nom = $_POST['nom'];
+    $prenom = $_POST['prenom'];
+    $mail = $_POST['mail'];
+    echo "Nom: $nom, Prénom: $prenom, Email: $mail";
