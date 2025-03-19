@@ -4,7 +4,7 @@ require_once('database.php');
 function clean_input($data) {
   return htmlspecialchars(stripslashes(trim($data)));
 }
-
+//Message
 $message = "";
 if (isset($_POST['create'])) {
 
