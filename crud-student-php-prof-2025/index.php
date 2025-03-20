@@ -19,7 +19,7 @@ if (!empty($search)) {
     $req_select->bindValue(':search', '%' . $search . '%', PDO::PARAM_STR);
 }
 
-// Exécution de la requête
+// Exécution de la requête ok
 $req_select->execute();
 $donnees = $req_select->fetchAll();
 ?>
