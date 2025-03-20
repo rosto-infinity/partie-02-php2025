@@ -11,7 +11,7 @@ if (!empty($search)) {
 }
 $sql .= ' ORDER BY id DESC';
 
-// Préparation de la requête
+// Préparation de la requête ok
 $req_select = $pdo->prepare($sql);
 
 // Liaison du paramètre de recherche
