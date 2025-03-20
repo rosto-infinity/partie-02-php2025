@@ -1,7 +1,7 @@
 <?php
 require_once('database.php');
 
-// Initialisation de la variable de recherche
+// Initialisation de la variable de recherche ok
 $search = isset($_GET['search']) ? $_GET['search'] : '';
 
 // Requête SQL avec filtre de recherche
